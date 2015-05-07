@@ -1,5 +1,22 @@
 body {
-    background-color: lightblue;
+    background-color: #fff;
+    /*background-image: url('http://52.4.203.135/Plane.jpg')  */
+    
+}
+
+.First h1 {    
+    text-align: center;
+    color: #116a91;
+}
+
+img {
+    position: relative;
+    transition: 1s cubic-bezier(.77, -0.41, .18, 1.32);
+}
+
+img:hover {
+    left: 80%;
+
 }
 
 .nav li {
@@ -23,9 +40,7 @@ body {
   color: #fff;
 }
 
-.learn-more {
-  background-color: #f7f7f7;
-}
+
 
 .learn-more h3 {
   font-family: 'Shift', sans-serif;
